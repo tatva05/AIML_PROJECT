@@ -1,0 +1,34 @@
+<aiml version="2.0">
+  <!-- Basic Response -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! How can I assist you today?</template>
+  </category>
+
+  <!-- Health-related Responses -->
+  <category>
+    <pattern>WHAT IS BLOOD PRESSURE</pattern>
+    <template>Blood pressure is the force of blood against the walls of your arteries.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DIABETES</pattern>
+    <template>Diabetes is a chronic disease that occurs when the body is unable to produce or effectively use insulin.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CANCER</pattern>
+    <template>Cancer is a disease in which abnormal cells divide uncontrollably and destroy body tissue.</template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PREVENT FLU</pattern>
+    <template>To prevent the flu, you should get vaccinated, wash your hands regularly, and avoid close contact with sick individuals.</template>
+  </category>
+
+  <!-- Default Response -->
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I don't understand that. Can you ask something else?</template>
+  </category>
+</aiml>
